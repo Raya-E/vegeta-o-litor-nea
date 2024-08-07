@@ -192,6 +192,8 @@ main h2{
   padding: 7%;
   font-family: 'inter', serif ;
   margin-bottom: -150px;
+  margin-top: -7%;
+  
 }
 
 .card_2{
@@ -206,12 +208,13 @@ main h2{
 
 .background{
   width: 100%;
-  min-height: 1125px;
+  min-height: 500px;
   background-color: #a0564d;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
   border-radius: 1%;
+  justify-content: center;
 }
 
 
@@ -268,18 +271,24 @@ margin-top: 2%;
   }
 
   .background_2{
-    width: 80%;
+    width: 60%;
     min-height: 500px;
     background-color: #1a7774;
-    margin: 0 auto;
+    margin: 0 auto; 
     display: flex;
     flex-direction: column;
+    align-items: center; 
     border-radius: 1%;
+    
   
   }
 
   .card_4{
-    margin: 2% 0px 2% 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 20px;
+   
   }
   .image_5 img{
     height: 500px;
@@ -289,4 +298,8 @@ margin-top: 2%;
     border-radius: 3%;
     box-shadow: 30px -16px #a0564d;
     border-radius: 2px;
+  }
+
+  .card_3{
+    margin: 2%; 
   }
